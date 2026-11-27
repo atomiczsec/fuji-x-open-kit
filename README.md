@@ -18,7 +18,7 @@ You need Xcode and an iPhone running iOS 17 or later.
 
 1. Open [App/FujiXOpen.xcodeproj](App/FujiXOpen.xcodeproj) in Xcode. Under **Signing & Capabilities**, select your team. A free **Personal Team** works for the default build; use a unique bundle identifier if needed.
 2. Select the **FujiXOpen** scheme and your iPhone, then click **Run**.
-3. On the X-T30 III, turn Airplane Mode off and Bluetooth on in **MENU/OK → Network/USB Setting**. From the shooting display, choose **DISP/BACK → Bluetooth → PAIRING**.
+3. On the X-T30 III (or other newer models that use Fuji X app), turn Airplane Mode off and Bluetooth on in **MENU/OK → Network/USB Setting**. From the shooting display, choose **DISP/BACK → Bluetooth → PAIRING**.
 4. In the app, tap **Pair a camera**, select the camera, and confirm matching codes if prompted. Keep the camera awake on the shooting display while the app starts Wi-Fi.
 5. Join the network shown in **Join camera Wi-Fi** using **Settings → Wi-Fi**. Return to the app and tap **I’ve joined** if the gallery hasn’t opened.
 
