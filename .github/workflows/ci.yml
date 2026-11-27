@@ -1,0 +1,44 @@
+name: Swift
+on:
+  push:
+    paths:
+      - 'Sources/**'
+      - 'Tests/**'
+      - 'App/**'
+      - 'Package.swift'
+      - 'Package.resolved'
+      - 'Scripts/**'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'Sources/**'
+      - 'Tests/**'
+      - 'App/**'
+      - 'Package.swift'
+      - 'Package.resolved'
+      - 'Scripts/**'
+      - '.github/workflows/**'
+jobs:
+  no-comments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 Scripts/no-comments-lint.py
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild -project App/FujiXOpen.xcodeproj -scheme FujiXOpen -destination 'generic/platform=iOS Simulator' build
+  linux:
+    runs-on: ubuntu-latest
+    container: swift:6.0.3-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift build
+      - run: swift test
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift build
+      - run: swift test
