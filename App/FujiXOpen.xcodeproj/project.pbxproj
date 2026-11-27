@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000024 /* FujiKit in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000021 /* FujiKit */; };
+		A00000000000000000000025 /* FujiKit in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000022 /* FujiKit */; };
+		A00000000000000000000026 /* FujiCameraSimulator in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000023 /* FujiCameraSimulator */; };
+		A00000000000000000000062 /* FujiXOpen/CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000060 /* FujiXOpen/CameraModel.swift */; };
+		A00000000000000000000063 /* FujiXOpen/PhotoLibraryImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000061 /* FujiXOpen/PhotoLibraryImporter.swift */; };
+		A00000000000000000000066 /* FujiXOpen/CameraPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000064 /* FujiXOpen/CameraPairing.swift */; };
+		A00000000000000000000067 /* FujiXOpen/CameraBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000065 /* FujiXOpen/CameraBluetooth.swift */; };
+		A00000000000000000000079 /* FujiXOpen/PairingTestFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000069 /* FujiXOpen/PairingTestFixtures.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00000000000000000000078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000002;
+			remoteInfo = FujiXOpen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000008 /* FujiXOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FujiXOpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000009 /* FujiXOpenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiXOpenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000060 /* FujiXOpen/CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiXOpen/CameraModel.swift; sourceTree = "<group>"; };
+		A00000000000000000000061 /* FujiXOpen/PhotoLibraryImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiXOpen/PhotoLibraryImporter.swift; sourceTree = "<group>"; };
+		A00000000000000000000064 /* FujiXOpen/CameraPairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiXOpen/CameraPairing.swift; sourceTree = "<group>"; };
+		A00000000000000000000065 /* FujiXOpen/CameraBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiXOpen/CameraBluetooth.swift; sourceTree = "<group>"; };
+		A00000000000000000000068 /* FujiXOpen.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FujiXOpen.xcconfig; sourceTree = "<group>"; };
+		A00000000000000000000069 /* FujiXOpen/PairingTestFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiXOpen/PairingTestFixtures.swift; sourceTree = "<group>"; };
+		A00000000000000000000072 /* FujiXOpenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiXOpenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A00000000000000000000006 /* FujiXOpen */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FujiXOpen; sourceTree = "<group>"; };
+		A00000000000000000000007 /* FujiXOpenTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FujiXOpenTests; sourceTree = "<group>"; };
+		A00000000000000000000071 /* FujiXOpenUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FujiXOpenUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000024 /* FujiKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000025 /* FujiKit in Frameworks */,
+				A00000000000000000000026 /* FujiCameraSimulator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* FujiXOpen */,
+				A00000000000000000000007 /* FujiXOpenTests */,
+				A00000000000000000000060 /* FujiXOpen/CameraModel.swift */,
+				A00000000000000000000061 /* FujiXOpen/PhotoLibraryImporter.swift */,
+				A00000000000000000000064 /* FujiXOpen/CameraPairing.swift */,
+				A00000000000000000000065 /* FujiXOpen/CameraBluetooth.swift */,
+				A00000000000000000000068 /* FujiXOpen.xcconfig */,
+				A00000000000000000000069 /* FujiXOpen/PairingTestFixtures.swift */,
+				A00000000000000000000071 /* FujiXOpenUITests */,
+				A00000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000008 /* FujiXOpen.app */,
+				A00000000000000000000009 /* FujiXOpenTests.xctest */,
+				A00000000000000000000072 /* FujiXOpenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000002 /* FujiXOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000011 /* Build configuration list for PBXNativeTarget "FujiXOpen" */;
+			buildPhases = (
+				A00000000000000000000030 /* Sources */,
+				A00000000000000000000031 /* Frameworks */,
+				A00000000000000000000032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000006 /* FujiXOpen */,
+			);
+			name = FujiXOpen;
+			packageProductDependencies = (
+				A00000000000000000000021 /* FujiKit */,
+			);
+			productName = FujiXOpen;
+			productReference = A00000000000000000000008 /* FujiXOpen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00000000000000000000003 /* FujiXOpenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000012 /* Build configuration list for PBXNativeTarget "FujiXOpenTests" */;
+			buildPhases = (
+				A00000000000000000000033 /* Sources */,
+				A00000000000000000000034 /* Frameworks */,
+				A00000000000000000000035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000007 /* FujiXOpenTests */,
+			);
+			name = FujiXOpenTests;
+			packageProductDependencies = (
+				A00000000000000000000022 /* FujiKit */,
+				A00000000000000000000023 /* FujiCameraSimulator */,
+			);
+			productName = FujiXOpenTests;
+			productReference = A00000000000000000000009 /* FujiXOpenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00000000000000000000070 /* FujiXOpenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000073 /* Build configuration list for PBXNativeTarget "FujiXOpenUITests" */;
+			buildPhases = (
+				A00000000000000000000074 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00000000000000000000077 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000071 /* FujiXOpenUITests */,
+			);
+			name = FujiXOpenUITests;
+			productName = FujiXOpenUITests;
+			productReference = A00000000000000000000072 /* FujiXOpenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A00000000000000000000002 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					A00000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = A00000000000000000000002;
+					};
+					A00000000000000000000070 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = A00000000000000000000002;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000010 /* Build configuration list for PBXProject "FujiXOpen" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000004;
+			packageReferences = (
+				A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = A00000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000002 /* FujiXOpen */,
+				A00000000000000000000003 /* FujiXOpenTests */,
+				A00000000000000000000070 /* FujiXOpenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000062 /* FujiXOpen/CameraModel.swift in Sources */,
+				A00000000000000000000063 /* FujiXOpen/PhotoLibraryImporter.swift in Sources */,
+				A00000000000000000000066 /* FujiXOpen/CameraPairing.swift in Sources */,
+				A00000000000000000000067 /* FujiXOpen/CameraBluetooth.swift in Sources */,
+				A00000000000000000000079 /* FujiXOpen/PairingTestFixtures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00000000000000000000077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00000000000000000000002 /* FujiXOpen */;
+			targetProxy = A00000000000000000000078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00000000000000000000068 /* FujiXOpen.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(HOTSPOT_SWIFT_CONDITION_$(HOTSPOT_AUTOJOIN))";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00000000000000000000068 /* FujiXOpen.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(HOTSPOT_SWIFT_CONDITION_$(HOTSPOT_AUTOJOIN))";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "$(CAMERA_WIFI_ENTITLEMENTS_$(HOTSPOT_AUTOJOIN))";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fuji X Open";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Pair with your Fujifilm camera and turn on its Wi-Fi to browse and transfer photos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to your Fujifilm camera over its Wi-Fi to browse and transfer photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save selected camera photos directly to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00000000000000000000053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "$(CAMERA_WIFI_ENTITLEMENTS_$(HOTSPOT_AUTOJOIN))";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fuji X Open";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Pair with your Fujifilm camera and turn on its Wi-Fi to browse and transfer photos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to your Fujifilm camera over its Wi-Fi to browse and transfer photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save selected camera photos directly to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) PAIRING_TEST_FIXTURES";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) PAIRING_TEST_FIXTURES";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00000000000000000000075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FujiXOpen;
+			};
+			name = Debug;
+		};
+		A00000000000000000000076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fujixopen.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FujiXOpen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000010 /* Build configuration list for PBXProject "FujiXOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000050 /* Debug */,
+				A00000000000000000000051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000011 /* Build configuration list for PBXNativeTarget "FujiXOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000052 /* Debug */,
+				A00000000000000000000053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000012 /* Build configuration list for PBXNativeTarget "FujiXOpenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000054 /* Debug */,
+				A00000000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000073 /* Build configuration list for PBXNativeTarget "FujiXOpenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000075 /* Debug */,
+				A00000000000000000000076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000021 /* FujiKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */;
+			productName = FujiKit;
+		};
+		A00000000000000000000022 /* FujiKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */;
+			productName = FujiKit;
+		};
+		A00000000000000000000023 /* FujiCameraSimulator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */;
+			productName = FujiCameraSimulator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
